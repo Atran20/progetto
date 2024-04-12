@@ -1,6 +1,3 @@
-# **Cos’è il Markdown?**![Markdown](https://ohdoylerules.com/images/markdown.svg)
-### ***Markdown***  è un linguaggio di **formattazione**/di **marcatura** leggero e semplice da usare per la creazione di documenti, soprattutto testi destinati al web. È stato creato da *John Gruber* e *Aaron Swartz* nel 2004 con l'obiettivo di permettere agli utenti di scrivere utilizzando un formato di testo semplice e leggibile che poi può essere facilmente convertito in **HTML**.
-
 # **Cos'è Git?** 
 ![GITHUB](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh0iYSBsZhe42ukPlUJCKADF4t3P9iTEG-iX46Dcso&s)(https://github.com)
 ### ***Git*** è un sistema di controllo di **versionamento** *open source* che permette di salvare sia sul vostro computer che su un server più versioni di uno stesso file o di un progetto che potete andare poi a modificare nel tempo
@@ -12,5 +9,15 @@
 Se avete bisogno di fare dei **backup** periodici o giornalieri di quello che state facendo è utile a confrontare le modifiche tra una versione e l'altra di un file che può essere sia un file contenente codice sia un file di testo sia anche dei file binari 
 avete anche  la possibilità di tornare ad una versione precedente del lavoro  in maniera semplice.
 
+``COMMIT``
+Un commit in **Git** rappresenta uno snapshot dei file nel tuo repository in un determinato momento. Quando esegui un commit, stai effettivamente registrando le modifiche apportate ai file nel repository in quel momento specifico. 
+Ecco cosa include un commit:
 
+1. **Modifiche ai File**: Ogni commit registra le modifiche apportate ai file nel repository. Queste modifiche possono essere aggiunte, eliminate o modificate.
+
+2. **Messaggio di Commit**: Ogni commit è accompagnato da un messaggio di commit che fornisce una breve descrizione delle modifiche apportate. Questo messaggio aiuta gli altri sviluppatori (e te stesso in futuro) a capire il motivo delle modifiche apportate.
+
+3. **Hash del Commit**: Ogni commit ha un hash SHA univoco che lo identifica in modo univoco all'interno del repository. Questo hash è utile per riferirsi a un commit specifico in operazioni successive, come il rollback o il riferimento a un commit specifico.
+
+I commit sono fondamentali in Git perché consentono di tenere traccia delle modifiche al codice nel tempo e di collaborare con altri sviluppatori in modo efficace. Ogni commit rappresenta un passo avanti nel progresso del progetto e offre la possibilità di tornare indietro nel tempo se necessario, mantenendo la storia del codice trasparente e ben documentata.
 
